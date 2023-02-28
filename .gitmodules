@@ -1,0 +1,9 @@
+[submodule "modules/change_detection"]
+	path = modules/change_detection
+	url = https://github.com/itstatev/change_detection.git
+[submodule "modules/DeepLabV3_segmentation"]
+	path = modules/DeepLabV3_segmentation
+	url = https://github.com/ArmanFahradyan/DeepLabV3_segmentation.git
+[submodule "modules/stitch"]
+	path = modules/stitch
+	url = https://github.com/itstatev/stitch.git
