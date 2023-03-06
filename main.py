@@ -42,12 +42,12 @@ def main():
                     keys.append(keypoints1.index(el)) 
                 object_keypoints_B.append(keys)
 
-        for a_layer in layers_of_first_img:
-            for b_layer in layers_of_second_img:
-                count = Change.count(object_keypoints_A, object_keypoints_B, matches)
-                harmonic_mean = Change.harmonic_mean(object_keypoints_A, object_keypoints_B, count)
-                max_match = Change.max_match(harmonic_mean)
-
+        # for a_layer in layers_of_first_img:
+        #     for b_layer in layers_of_second_img:
+        #         count = Change.count(object_keypoints_A, object_keypoints_B, matches)
+        #         harmonic_mean = Change.harmonic_mean(object_keypoints_A, object_keypoints_B, count)
+        #         max_match = Change.max_match(harmonic_mean)
+                
 
 if __name__ == "__main__":
     main()    
